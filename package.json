@@ -1,0 +1,38 @@
+{
+  "name": "react-native-effects",
+  "version": "1.0.0",
+  "description": "A flexible, simple and performant animation library for React Native.",
+  "keywords": [
+    "react",
+    "react-native",
+    "animations",
+    "effects"
+  ],
+  "author": "Simeon de Dios <simeon@nascentdigital.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nascentdigital/react-native-effects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nascentdigital/react-native-effects/issues"
+  },
+  "homepage": "https://github.com/nascentdigital/react-native-effects#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "~0.55.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-native": "^0.56.18",
+    "typescript": "^3.0.3"
+  }
+}
